@@ -1,0 +1,39 @@
+{
+  "name": "vite-plugin-sri-transform",
+  "version": "0.0.1",
+  "description": "vite-plugin-sri-transform",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "vite",
+    "sri",
+    "integrity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.10.1",
+    "tslib": "^2.8.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4"
+  },
+  "peerDependencies": {
+    "vite": "^2 || ^3 || ^4 || ^5"
+  }
+}
